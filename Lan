@@ -7,11 +7,11 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: WARP
     type: wireguard
-    server: engage.cloudflareclient.com
-    port: "2408"
+    server: 188.114.97.38
+    port: "939"
     ip: 172.16.0.2
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    private-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    private-key: CKg7T2FR5iykOnT/AgXVna6xkwyulLLWanfJ/u2Q5Ug=
     mtu: 1280
     udp: true
   - name: http内网
